@@ -1,0 +1,15 @@
+__pycache__/
+.idea/
+.cache/
+.vscode/
+*.txt
+*.sql
+holo_gd/
+knowledge/
+test/
+tmp/
+test.py
+tools/
+.DS_Store
+*.png
+agents/
