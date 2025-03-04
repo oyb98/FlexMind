@@ -1,0 +1,12 @@
+langchain
+langchain_openai
+langchain_google_genai
+langchain_community
+chromadb
+evaluate
+mlflow
+tensorboard
+tqdm
+transformers==3.0.2
+ujson
+pytorch=1.13.1

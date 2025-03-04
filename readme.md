@@ -2,7 +2,7 @@
 
 Here we provide the code of DMA. Due to privacy issue, we didnt provide the knowledge base and the dataset we used.
 
-We provide the demo code to demostrate the work flow of our multi agent framework.
+We provide the demo code to demostrate the work flow of our multi-agent framework.
 
 ## setup 
 
@@ -12,7 +12,7 @@ and then replace all the api url and model to your own.
 
 ## DMA
 
-please use `python expr/expr_3.py`to run our multi agent framework
+Please use `python expr/expr_3.py`to run our multi agent framework
 
 
 
@@ -35,4 +35,31 @@ final_res = []
 res = exp3.run_diagnose(query=query, enable_fetch=False, instance_id="instance_id", timestamp=1713867180)
 print(res)
 
+```
+
+## DRA
+Here, we provide the code for the DRA model used for retrieval, along with training and testing data and scripts.
+
+The training and testing data on MSMARCO can be downloaded from the provided [link]() and placed in the DRA/data directory. 
+
+#### Training
+Training data
+* triples.DQ.sample.train.small.tsv: each line is `query text \t positive passage text \t negative passage text \t negative query text`. 
+* q2kw_test.json: as a JSONL file is `{query text, keyword}`.
+
+Then, use the following script to train and test the model.
+
+Training script
+```bash
+cd DRA
+sh train.sh
+```
+#### Testing
+Testing data
+* qrels.dev.tsv: Test queries and their corresponding relevant documents. 
+
+Testing script
+```bash
+cd DRA
+sh test.sh
 ```
