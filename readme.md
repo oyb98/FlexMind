@@ -40,7 +40,7 @@ print(res)
 ## DRA
 Here, we provide the code for the DRA model used for retrieval, along with training and testing data and scripts.
 
-The training and testing data on MSMARCO can be downloaded from the provided [link]() and placed in the DRA/data directory. 
+The training and testing data on MSMARCO can be downloaded from the provided [link](https://drive.google.com/drive/folders/1M0CnRoy_SISNcKxfubOWu2JTUb5BYGjq?usp=sharing) and placed in the DRA/data directory. 
 
 #### Training
 Training data
