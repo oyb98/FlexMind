@@ -1,6 +1,6 @@
-## DMA
+## FlexMind
 
-Here we provide the code of DMA. Due to privacy issue, we didnt provide the knowledge base and the dataset we used.
+Here we provide the code of FlexMind. Due to privacy issue, we didnt provide the knowledge base and the dataset we used.
 
 We provide the demo code to demostrate the work flow of our multi-agent framework.
 
@@ -10,7 +10,7 @@ We provide the demo code to demostrate the work flow of our multi-agent framewor
 
 and then replace all the api url and model to your own.
 
-## DMA
+## FlexMind
 
 Please use `python expr/expr_3.py`to run our multi agent framework
 
@@ -37,10 +37,10 @@ print(res)
 
 ```
 
-## DRA
-Here, we provide the code for the DRA model used for retrieval, along with training and testing data and scripts.
+## ARA
+Here, we provide the code for the ARA model used for retrieval, along with training and testing data and scripts.
 
-The training and testing data on MSMARCO can be downloaded from the provided [link](https://drive.google.com/drive/folders/1M0CnRoy_SISNcKxfubOWu2JTUb5BYGjq?usp=sharing) and placed in the DRA/data directory. 
+The training and testing data on MSMARCO can be downloaded from the provided [link](https://drive.google.com/drive/folders/1M0CnRoy_SISNcKxfubOWu2JTUb5BYGjq?usp=sharing) and placed in the ARA/data directory. 
 
 #### Training
 Training data
@@ -51,7 +51,7 @@ Then, use the following script to train and test the model.
 
 Training script
 ```bash
-cd DRA
+cd ARA
 sh train.sh
 ```
 #### Testing
@@ -60,6 +60,6 @@ Testing data
 
 Testing script
 ```bash
-cd DRA
+cd ARA
 sh test.sh
 ```
